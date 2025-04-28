@@ -1,0 +1,16 @@
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+select:hover {
+  border-color: #4CAF50;
+}
+
+option {
+  padding: 10px;
+}
