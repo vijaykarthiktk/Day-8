@@ -1,0 +1,13 @@
+/* Default (desktop) */
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+/* Mobile version */
+@media (max-width: 768px) {
+  button {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+}
