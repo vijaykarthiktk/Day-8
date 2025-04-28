@@ -1,0 +1,11 @@
+/* Default (desktop) */
+h1 {
+  font-weight: bold;
+}
+
+/* Mobile version */
+@media (max-width: 768px) {
+  h1 {
+    font-weight: normal;
+  }
+}
