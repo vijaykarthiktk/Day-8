@@ -1,0 +1,24 @@
+/* Desktop version */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 30%;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+/* Mobile version */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item {
+    width: 80%;
+    margin: 10px 0;
+  }
+}
