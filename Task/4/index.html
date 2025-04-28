@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>Day 8 - Tasks</title>
+</head>
+
+<body>
+  <form action="/submit" method="POST">
+    <label>Select your favorite fruit:</label><br>
+    <input type="radio" id="apple" name="fruit" value="apple">
+    <label for="apple">Apple</label><br>
+    <input type="radio" id="banana" name="fruit" value="banana">
+    <label for="banana">Banana</label><br>
+    <input type="radio" id="cherry" name="fruit" value="cherry">
+    <label for="cherry">Cherry</label><br><br>
+
+    <label>Select your hobbies:</label><br>
+    <input type="checkbox" id="reading" name="hobby" value="reading">
+    <label for="reading">Reading</label><br>
+    <input type="checkbox" id="swimming" name="hobby" value="swimming">
+    <label for="swimming">Swimming</label><br>
+    <input type="checkbox" id="cycling" name="hobby" value="cycling">
+    <label for="cycling">Cycling</label><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <style>
+    input[type="radio"],
+    input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      background-color: #f0f0f0;
+    }
+
+    input[type="radio"]:checked,
+    input[type="checkbox"]:checked {
+      background-color: #4CAF50;
+    }
+  </style>
+</body>
+
+</html>
