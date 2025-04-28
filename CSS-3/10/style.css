@@ -1,0 +1,13 @@
+/* Default (desktop) */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile version */
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
