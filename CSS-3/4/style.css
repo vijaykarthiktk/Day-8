@@ -1,0 +1,20 @@
+/* Sidebar is visible on larger screens */
+.sidebar {
+  width: 300px;
+  float: left;
+}
+
+.main-content {
+  margin-left: 320px;
+}
+
+/* Mobile version */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
