@@ -1,0 +1,18 @@
+/* Default styles */
+h1 {
+  font-size: 24px;
+}
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 18px;
+  }
+}
