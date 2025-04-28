@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #f4a261;
+}
+
+.left {
+  background-color: #2a9d8f;
+}
+
+.right {
+  background-color: #e76f51;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f1faee;
+}
+
+/* Responsive: stack sections vertically on small screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar,
+  .main {
+    width: 100%;
+  }
+}
