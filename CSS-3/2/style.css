@@ -1,0 +1,21 @@
+/* Desktop version */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 48%;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Mobile version */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .content {
+    width: 100%;
+  }
+}
