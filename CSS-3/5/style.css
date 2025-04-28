@@ -1,0 +1,19 @@
+/* Desktop version */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background-color: #e4e4e4;
+  text-align: center;
+}
+
+/* Mobile version */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
