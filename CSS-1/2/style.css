@@ -1,0 +1,16 @@
+input[type="checkbox"], input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+label {
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+}
+
+label:hover {
+  color: #4CAF50;
+}
