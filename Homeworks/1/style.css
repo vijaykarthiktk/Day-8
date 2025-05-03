@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    gap: 0.5rem;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .box {
+    background-color: #66bb6a;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .rem-px {
+    padding: 2rem;
+    max-width: 200px;
+    height: 500px;
+  }
+  
+  .vw-vh {
+    width: 20vw;
+    height: 20vh;
+  }
+  
+  .percent {
+    width: 12%;
+    height: 100px;
+  }
+  
+  .vmin {
+    width: 10vmin;
+    height: 30vmin;
+  }
+  
+  .em {
+    width: 10em;
+    font-size: 1.5em;
+    height: 600px;
+  }
+  
