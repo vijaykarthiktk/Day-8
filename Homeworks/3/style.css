@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.img-container img {
+  width: 100%;
+  display: block;
+  transition: all 0.4s ease;
+}
+
+.zoom:hover img {
+  transform: scale(1.1);
+}
+
+.rotate:hover img {
+  transform: rotate(10deg);
+}
+
+.grayscale img {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease;
+}
+.grayscale:hover img {
+  filter: grayscale(0%);
+}
+
+.text-reveal .caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.text-reveal:hover .caption {
+  opacity: 1;
+}
