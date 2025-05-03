@@ -1,0 +1,26 @@
+body {
+  background: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+img {
+  max-width: 300px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.masked {
+  mask-image: linear-gradient(to bottom, black, transparent);
+  mask-size: cover;
+
+}
