@@ -1,0 +1,16 @@
+.container {
+  width: 600px;
+  margin: 50px auto;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.circle {
+  float: left;
+  width: 150px;
+  height: 150px;
+  shape-outside: circle();
+  clip-path: circle();
+  background-color: crimson;
+  margin: 0 20px 0px 0;
+}
